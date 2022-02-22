@@ -1,0 +1,113 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 17/03/2017 12:03
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-placeholder:before { content: "\f100"; }
+.flaticon-planet-earth:before { content: "\f101"; }
+.flaticon-grid-world:before { content: "\f102"; }
+.flaticon-coffee-cup:before { content: "\f103"; }
+.flaticon-phone-call:before { content: "\f104"; }
+.flaticon-envelope:before { content: "\f105"; }
+.flaticon-fast-food:before { content: "\f106"; }
+.flaticon-food-8:before { content: "\f107"; }
+.flaticon-food-7:before { content: "\f108"; }
+.flaticon-food-6:before { content: "\f109"; }
+.flaticon-food-5:before { content: "\f10a"; }
+.flaticon-drink-1:before { content: "\f10b"; }
+.flaticon-food-4:before { content: "\f10c"; }
+.flaticon-food-3:before { content: "\f10d"; }
+.flaticon-pizza:before { content: "\f10e"; }
+.flaticon-dinner-1:before { content: "\f10f"; }
+.flaticon-microwave-oven:before { content: "\f110"; }
+.flaticon-table:before { content: "\f111"; }
+.flaticon-pot:before { content: "\f112"; }
+.flaticon-bar:before { content: "\f113"; }
+.flaticon-cutlery:before { content: "\f114"; }
+.flaticon-coke:before { content: "\f115"; }
+.flaticon-steak:before { content: "\f116"; }
+.flaticon-fries:before { content: "\f117"; }
+.flaticon-bread:before { content: "\f118"; }
+.flaticon-chef:before { content: "\f119"; }
+.flaticon-food-2:before { content: "\f11a"; }
+.flaticon-restaurant-3:before { content: "\f11b"; }
+.flaticon-drink:before { content: "\f11c"; }
+.flaticon-restaurant-2:before { content: "\f11d"; }
+.flaticon-food-1:before { content: "\f11e"; }
+.flaticon-restaurant-1:before { content: "\f11f"; }
+.flaticon-restaurant:before { content: "\f120"; }
+.flaticon-cover:before { content: "\f121"; }
+.flaticon-food:before { content: "\f122"; }
+.flaticon-cooker:before { content: "\f123"; }
+.flaticon-dinner:before { content: "\f124"; }
+    
+    $font-Flaticon-placeholder: "\f100";
+    $font-Flaticon-planet-earth: "\f101";
+    $font-Flaticon-grid-world: "\f102";
+    $font-Flaticon-coffee-cup: "\f103";
+    $font-Flaticon-phone-call: "\f104";
+    $font-Flaticon-envelope: "\f105";
+    $font-Flaticon-fast-food: "\f106";
+    $font-Flaticon-food-8: "\f107";
+    $font-Flaticon-food-7: "\f108";
+    $font-Flaticon-food-6: "\f109";
+    $font-Flaticon-food-5: "\f10a";
+    $font-Flaticon-drink-1: "\f10b";
+    $font-Flaticon-food-4: "\f10c";
+    $font-Flaticon-food-3: "\f10d";
+    $font-Flaticon-pizza: "\f10e";
+    $font-Flaticon-dinner-1: "\f10f";
+    $font-Flaticon-microwave-oven: "\f110";
+    $font-Flaticon-table: "\f111";
+    $font-Flaticon-pot: "\f112";
+    $font-Flaticon-bar: "\f113";
+    $font-Flaticon-cutlery: "\f114";
+    $font-Flaticon-coke: "\f115";
+    $font-Flaticon-steak: "\f116";
+    $font-Flaticon-fries: "\f117";
+    $font-Flaticon-bread: "\f118";
+    $font-Flaticon-chef: "\f119";
+    $font-Flaticon-food-2: "\f11a";
+    $font-Flaticon-restaurant-3: "\f11b";
+    $font-Flaticon-drink: "\f11c";
+    $font-Flaticon-restaurant-2: "\f11d";
+    $font-Flaticon-food-1: "\f11e";
+    $font-Flaticon-restaurant-1: "\f11f";
+    $font-Flaticon-restaurant: "\f120";
+    $font-Flaticon-cover: "\f121";
+    $font-Flaticon-food: "\f122";
+    $font-Flaticon-cooker: "\f123";
+    $font-Flaticon-dinner: "\f124";

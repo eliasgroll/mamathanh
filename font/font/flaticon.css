@@ -1,0 +1,229 @@
+/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 17/03/2017 12:03
+  	*/
+
+@font-face {
+	font-family: "Flaticon";
+	src: url("./Flaticon.eot");
+	src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),  url("./Flaticon.woff") format("woff"),  url("./Flaticon.ttf") format("truetype"),  url("./Flaticon.svg#Flaticon") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+	font-family: Flaticon;
+	font-style: normal;
+}
+.flaticon-placeholder:before {
+	content: "\f100";
+}
+.flaticon-planet-earth:before {
+	content: "\f101";
+}
+.flaticon-grid-world:before {
+	content: "\f102";
+}
+.flaticon-coffee-cup:before {
+	content: "\f103";
+}
+.flaticon-phone-call:before {
+	content: "\f104";
+}
+.flaticon-envelope:before {
+	content: "\f105";
+}
+.flaticon-fast-food:before {
+	content: "\f106";
+}
+.flaticon-food-8:before {
+	content: "\f107";
+}
+.flaticon-food-7:before {
+	content: "\f108";
+}
+.flaticon-food-6:before {
+	content: "\f109";
+}
+.flaticon-food-5:before {
+	content: "\f10a";
+}
+.flaticon-drink-1:before {
+	content: "\f10b";
+}
+.flaticon-food-4:before {
+	content: "\f10c";
+}
+.flaticon-food-3:before {
+	content: "\f10d";
+}
+.flaticon-pizza:before {
+	content: "\f10e";
+}
+.flaticon-dinner-1:before {
+	content: "\f10f";
+}
+.flaticon-microwave-oven:before {
+	content: "\f110";
+}
+.flaticon-table:before {
+	content: "\f111";
+}
+.flaticon-pot:before {
+	content: "\f112";
+}
+.flaticon-bar:before {
+	content: "\f113";
+}
+.flaticon-cutlery:before {
+	content: "\f114";
+}
+.flaticon-coke:before {
+	content: "\f115";
+}
+.flaticon-steak:before {
+	content: "\f116";
+}
+.flaticon-fries:before {
+	content: "\f117";
+}
+.flaticon-bread:before {
+	content: "\f118";
+}
+.flaticon-chef:before {
+	content: "\f119";
+}
+.flaticon-food-2:before {
+	content: "\f11a";
+}
+.flaticon-restaurant-3:before {
+	content: "\f11b";
+}
+.flaticon-drink:before {
+	content: "\f11c";
+}
+.flaticon-restaurant-2:before {
+	content: "\f11d";
+}
+.flaticon-food-1:before {
+	content: "\f11e";
+}
+.flaticon-restaurant-1:before {
+	content: "\f11f";
+}
+.flaticon-restaurant:before {
+	content: "\f120";
+}
+.flaticon-cover:before {
+	content: "\f121";
+}
+.flaticon-food:before {
+	content: "\f122";
+}
+.flaticon-cooker:before {
+	content: "\f123";
+}
+.flaticon-dinner:before {
+	content: "\f124";
+}
+.flaticon-clock:before {
+	content: "\f125";
+}
+.flaticon-dinner {
+	font-size: 60px;
+	color:#ff5722;
+}
+.flaticon-fast-food {
+	font-size: 66px;
+}
+.flaticon-cover {
+	font-size: 72px;
+}
+.flaticon-restaurant {
+	font-size: 66px;
+}
+.flaticon-drink-1 {
+	font-size: 68px;
+}
+.flaticon-food {
+	font-size: 66px;
+}
+/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 07/04/2017 15:37
+  	*/
+
+@font-face {
+	font-family: "Flaticon1";
+	src: url("./Flaticon1.eot");
+	src: url("./Flaticon1.eot?#iefix") format("embedded-opentype"),  url("./Flaticon1.woff") format("woff"),  url("./Flaticon1.ttf") format("truetype"),  url("./Flaticon1.svg#Flaticon") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+[class^="flaticon1-"]:before, [class*=" flaticon1-"]:before, [class^="flaticon1-"]:after, [class*=" flaticon1-"]:after {
+	font-family: Flaticon1;
+	font-style: normal;
+}
+.flaticon1-browser:before {
+	content: "\f100";
+}
+.flaticon1-document:before {
+	content: "\f101";
+	margin-top: 5px;
+}
+.flaticon1-online-shop:before {
+	content: "\f102";
+	margin-top: 5px;
+}
+.flaticon1-customer-service:before {
+	content: "\f103";
+	margin-left: 10px;
+}
+.flaticon1-menu:before {
+	content: "\f104";
+}
+.flaticon1-reserved:before {
+	content: "\f105";
+	margin-top: 7px;
+}
+.flaticon1-enhance-effect:before {
+	content: "\f106";
+}
+.flaticon1-responsive:before {
+	content: "\f107";
+}
+.flaticon1-multimedia:before {
+	content: "\f108";
+}
+.flaticon1-time:before {
+	content: "\f109";
+}
+.flaticon1-time {
+	font-size: 30px;
+	color: #ff5722;
+}
+.flaticon1-reserved {
+	font-size: 60px;
+}
+.flaticon1-customer-service {
+	font-size: 50px;
+}
+/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 08/04/2017 07:58
+  	*/
+
+@font-face {
+	font-family: "Flaticon2";
+	src: url("./Flaticon2.eot");
+	src: url("./Flaticon2.eot?#iefix") format("embedded-opentype"),  url("./Flaticon2.woff") format("woff"),  url("./Flaticon2.ttf") format("truetype"),  url("./Flaticon2.svg#Flaticon") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+[class^="flaticon2-"]:before, [class*=" flaticon2-"]:before, [class^="flaticon2-"]:after, [class*=" flaticon2-"]:after {
+	font-family: Flaticon2;
+	font-style: normal;
+}
+.flaticon2-clock:before {
+	content: "\f100";
+	font-size: 30px;
+}

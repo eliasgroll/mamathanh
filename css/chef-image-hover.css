@@ -1,0 +1,134 @@
+.ch-item {
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	position: relative;
+	box-shadow: 0 0px 10px rgba(0,0,0,0.2);
+	cursor: default;
+}
+
+.ch-info-wrap{
+	position: absolute;
+	width: 180px;
+	height: 180px;
+	border-radius: 50%;
+
+	-webkit-perspective: 800px;
+	-moz-perspective: 800px;
+	-o-perspective: 800px;
+	-ms-perspective: 800px;
+	perspective: 800px;
+
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+
+	top: 20px;
+	left: 20px;
+	background: #f9f9f9 url(../images/bg.jpg);
+	box-shadow: 
+		0 0 0 20px rgba(255,255,255,0.9), 
+		inset 0 0 3px rgba(115,114, 23, 0.8);
+
+}
+
+.ch-info{
+	position: absolute;
+	width: 180px;
+	height: 180px;
+	border-radius: 50%;
+
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+		
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	-o-transform-style: preserve-3d;
+	-ms-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+
+}
+
+.ch-info > div {
+	display: block;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	background-position: center center;
+
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	-o-backface-visibility: hidden;
+	-ms-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.ch-info .ch-info-back {
+	-webkit-transform: rotate3d(0,1,0,180deg);
+	-moz-transform: rotate3d(0,1,0,180deg);
+	-o-transform: rotate3d(0,1,0,180deg);
+	-ms-transform: rotate3d(0,1,0,180deg);
+	transform: rotate3d(0,1,0,180deg);
+	position:relative;
+	background: #191919;
+}
+.ch-info-back p{
+		/*display:inline-block;*/
+		padding-top:30px;
+		position:absolute;
+		width:100%;
+		top:25%;
+		left:23%;
+}
+.ch-info-back p span{
+		float:left;
+}
+.ch-info-back p span a{
+		padding:0 10px;
+		font-size:18px;
+		color:#fff;		
+		transition:all 0.4s;
+}
+.ch-info-back p span a:hover{
+		/*color:#ff5722;*/
+}
+.ch-img-1 { 
+	background-image:url(../img/chef-1.png);
+}
+
+.ch-img-2 { 
+	background-image: url(../img/chef-2.png);
+}
+
+.ch-img-3 { 
+	background-image:url(../img/chef-3.png);
+}
+.ch-info h3 {
+	color: #fff;
+	font-family:Raleway;
+	letter-spacing: 2px;
+	font-size: 18px;
+	height:90px;
+	padding: 60px 0 0 0;
+	font-weight:bold;
+	margin:0;
+}
+.ch-item:hover .ch-info-wrap {
+	box-shadow: 
+		0 0 0 0 rgba(255,255,255,0.8), 
+		inset 0 0 3px rgba(115,114, 23, 0.8);
+}
+
+.ch-item:hover .ch-info {
+	-webkit-transform: rotate3d(0,1,0,-180deg);
+	-moz-transform: rotate3d(0,1,0,-180deg);
+	-o-transform: rotate3d(0,1,0,-180deg);
+	-ms-transform: rotate3d(0,1,0,-180deg);
+	transform: rotate3d(0,1,0,-180deg);
+}
