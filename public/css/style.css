@@ -1,0 +1,1089 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
+html {
+    font-size: 100%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.pick-up {
+    color: limegreen !important;
+}
+
+.review-banner {
+    background: white;
+    border: 2px solid #e6e6e6;
+    border-radius: 5px;
+    height: 6.5rem;
+    width: 22rem;
+    margin: 3rem auto 3rem 0;
+    padding: .5rem;
+    align-items: center;
+    color: #5f6368;
+}
+
+.review-banner:hover {
+    border: 2px solid cornflowerblue;
+}
+
+.google-logo {
+    maring-left: 1rem;
+}
+
+.star-rating {
+    color: #FFD77F;
+}
+
+.speech-bubble {
+    position: relative;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 45px;
+    height: 45px;
+}
+
+boody {
+    background-color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.45em;
+    color: #727272;
+}
+
+@media only screen and (max-width: 1199px) {
+    body {
+        font-size: 15px;
+    }
+}
+
+
+/*============Start-Style==============*/
+.overflow-hidden {
+    overflow: hidden;
+}
+
+/* ============== header part  ====================== */
+
+.home-three .navigation .menu-content ul li a {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    padding: 10px 10px;
+}
+
+.home-three .navigation .menu-content ul li a {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    padding: 10px 10px;
+}
+
+.home-three .menu_ber_btn {
+    margin-left: 10px;
+    color: #000000;
+    background: #FFD77F;
+    padding: 14px 18px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.home-three .menu_ber_btn:hover {
+    font-weight: 800;
+}
+
+.home-three .menu_res_btn {
+    color: #FFD77F;
+    border: 1px solid #FFD77F;
+    padding: 14px 18px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.home-three .menu_res_btn:hover {
+    font-weight: 800;
+}
+
+/* ============== banner part  ====================== */
+
+.banner_part {
+    background: url("../images/bg/banner.png") no-repeat center;
+    background-size: cover;
+    padding-top: 480px;
+    padding-bottom: 115px;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    z-index: 1;
+}
+
+.banner_part::after {
+    content: '';
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.2);
+    inset: 0;
+    z-index: -1;
+}
+
+.banner_part .banner_text h1 {
+    font-family: 'Style Script', cursive;
+    font-weight: 500;
+    font-size: 64px;
+    color: #ffffff;
+}
+
+.banner_part .banner_text p {
+    padding: 15px 0;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #ffffff;
+    line-height: 45px;
+}
+
+.banner_part .banner_text .banner-btn a {
+    width: 150px;
+    display: inline-block;
+    background: transparent;
+    border: 1px solid #ffffff;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+    padding: 10px 0;
+    margin-left: 20px;
+    transition: all linear 0.4s;
+}
+
+.banner_part .banner_text .banner-btn a:hover {
+    background-color: #FFD77F;
+    color: #000000;
+    border-color: #FFD77F;
+    font-weight: 800;
+}
+
+
+/* ========= banner part end ========== */
+.Genie_Vietnam_part {
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    z-index: 1;
+}
+
+.Genie_Vietnam_part::after {
+    content: '';
+    position: absolute;
+    background-color: rgba(231, 220, 206, 0.7);
+    inset: 0;
+    z-index: -1;
+}
+
+.Genie_Vietnam_part .left_img img {
+    width: 100%;
+}
+
+.Genie_Vietnam_part .right_text {
+    padding: 0 200px 0 70px;
+    height: 100%;
+    align-items: center;
+    display: grid;
+}
+
+.Genie_Vietnam_part .right_text .text-pant {
+    display: block;
+    width: 100%;
+}
+
+.Genie_Vietnam_part .contact_info {
+    background: url("../images/bg/bg.png") no-repeat center;
+    background-size: cover;
+    background-color: #E7DCCE;
+    position: relative;
+    z-index: 1;
+    float: left;
+}
+
+.Genie_Vietnam_part .contact_info::after {
+    content: '';
+    position: absolute;
+    background: rgba(220, 210, 199, 0.5);
+    inset: 0;
+    z-index: -1;
+}
+
+.Genie_Vietnam_part .right_text h1 {
+    font-family: 'Style Script', cursive;
+    font-weight: 500;
+    font-size: 64px;
+    color: #000000;
+    padding-bottom: 20px;
+}
+
+.Genie_Vietnam_part .right_text p {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #000000;
+    line-height: 35px;
+}
+
+@media screen and (max-width: 767px) {
+    .Genie_Vietnam_part .right_text {
+        padding: 0 30px !important;
+    }
+
+    .review-banner {
+        margin: 0 auto 3rem auto;
+    }
+
+    .Genie_Vietnam_part .right_text h1 {
+        font-size: 45px;
+        padding-top: 50px;
+        text-align: center;
+    }
+
+    .Genie_Vietnam_part .right_text p {
+        text-align: center;
+        padding-bottom: 30px;
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .die_part .die_text {
+        padding-top: 100px !important;
+    }
+
+    .die_part .die_text p {
+        padding: 36px !important;
+        text-align: center;
+    }
+
+    .services_part .service-img .overlay p {
+        font-size: 12px !important;
+        opacity: 0.7;
+    }
+
+    .services_part .service-img .overlay {
+        padding: 15px 20px !important;
+    }
+
+    .services_part .service-img .overlay h2 {
+        padding-bottom: 0px !important;
+    }
+
+    .services_part .service-img .overlay p {
+        padding-bottom: 0 !important;
+        margin-bottom: 10px !important;
+    }
+
+    .Genie_Vietnam_part .testimonial_people_img {
+        padding-bottom: 50px;
+    }
+
+    .Genie_Vietnam_part .testimonial_people_img {
+        padding-left: 70px;
+    }
+
+    .banner_part {
+        background: url("../images/bg/mobile-bg.png") no-repeat center;
+        background-size: cover;
+    }
+
+    .banner_part .banner_text h1 {
+        font-size: 50px;
+    }
+
+    .banner_part .banner_text p {
+        font-size: 17px;
+        line-height: 35px;
+        padding: 0 35px;
+    }
+
+    .gallery_part {
+        background: url("../images/bg/gallry-bg.png") no-repeat top !important;
+        background-size: initial !important;
+        background-color: #000000 !important;
+    }
+
+    .vorspeisen_part h1 {
+        font-size: 42px !important;
+    }
+
+    .vorspeisen_part h1 {
+        padding: 30px 0;
+    }
+
+    .vorspeisen_part .vorspeisen_text h4 {
+        font-size: 20px !important;
+    }
+
+    .vorspeisen_part .vorspeisen_text p {
+        padding-right: 40px !important;
+    }
+
+    .contact_part h1 {
+        font-size: 45px !important;
+    }
+
+    .contact_part .contact_from_input {
+        width: 90% !important;
+        margin-right: 19px !important;
+    }
+
+    .contact_part .contact_info_text .contact-icon-text p {
+        font-size: 16px !important;
+    }
+
+    .contact_part .contact_info_text {
+        width: 90% !important;
+        margin-left: 20px !important;
+    }
+
+    .contact_total_icon {
+        padding-top: 50px !important;
+        padding-bottom: 50px;
+    }
+
+    .contact_part .contact_info_text h1 {
+        padding-top: 50px !important;
+    }
+
+    .sushi_part_down .sushi_down {
+        background: url("../images/bg/mobile\ 234567.png") no-repeat center !important;
+        background-size: initial !important;
+        background-color: #000000 !important;
+        padding: 130px 0;
+    }
+
+    .sushi_part_down .sushi_down img {
+        display: none;
+    }
+}
+
+/* ========= Genie_Vietnam_part end ========== */
+
+
+.sushi_part .sushi_left {
+    position: relative;
+    z-index: 9;
+    text-align: center;
+    display: block;
+}
+
+.sushi_part .sushi_left img {
+    width: 100%;
+}
+
+.sushi_part .sushi_left .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.sushi_part .sushi_left:hover .overlay {
+    transition: all 0.5s;
+    background: rgba(0, 0, 0, 0.65);
+}
+
+.sushi_part .sushi_left .overlay h1 {
+    font-family: 'Style Script', cursive;
+    font-weight: 500;
+    font-size: 64px;
+    color: #ffffff;
+}
+
+.sushi_part_down .sushi_down {
+    width: 100%;
+    position: relative;
+    z-index: 9;
+    display: block;
+}
+
+.sushi_part_down .sushi_down img {
+    width: 100%;
+}
+
+.sushi_part_down .sushi_down .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.sushi_part_down .sushi_down:hover .overlay {
+    transition: all 0.5s;
+    background: rgba(0, 0, 0, 0.65);
+}
+
+.sushi_part_down .sushi_down .overlay h1 {
+    font-family: 'Style Script', cursive;
+    font-weight: 500;
+    font-size: 64px;
+    color: #ffffff;
+}
+
+/* ========== sushi_part end ============== */
+
+
+.die_part {
+    background: #000000;
+    padding: 50px 0;
+}
+
+.die_part .die_img img {
+    width: 100%;
+}
+
+.die_part .die_text h1 {
+    font-family: 'Style Script', cursive;
+    font-weight: 500;
+    font-size: 64px;
+    color: #ffffff;
+    padding-bottom: 20px;
+}
+
+.die_part .die_text {
+    padding-top: 200px;
+}
+
+.die_part .die_text p {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #ffffff;
+    line-height: 35px;
+    padding-right: 120px;
+}
+
+.die_part .die_footer {
+    font-family: 'Style Script', cursive;
+    font-weight: 500;
+    font-size: 64px;
+    color: #ffffff;
+    padding-top: 50px;
+    text-align: center;
+}
+
+/* ================ die_part End ================= */
+
+.services_part .service-img {
+    position: relative;
+}
+
+.services_part .service-img img {
+    width: 100%;
+}
+
+.services_part .service-img .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 40px 35px;
+    transform: scale(0);
+    transition: all linear 0.4s;
+}
+
+.services_part .service-img .overlay h2 {
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    font-weight: 800;
+    color: #ffffff;
+    padding-bottom: 15px;
+}
+
+.services_part .service-img .overlay p {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #ffffff;
+    padding-bottom: 15px;
+}
+
+.services_part .service-img .overlay a {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+    display: inline-block;
+    padding-right: 10px;
+}
+
+.services_part .service-img .overlay a i {
+    padding-left: 10px;
+}
+
+.services_part .service-img:hover .overlay {
+    transform: scale(1);
+}
+
+/* ================ services_part End ================= */
+
+.Genie_Vietnam_part .right_text .people-img {
+    float: left;
+}
+
+.Genie_Vietnam_part .right_text .people-text span {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #000000;
+    line-height: 35px;
+    padding-left: 25px;
+}
+
+.Genie_Vietnam_part .right_text .people-text .testimonial_star {
+    padding-left: 97px;
+    display: inherit;
+}
+
+.Genie_Vietnam_part .right_text .people-text .testimonial_star i {
+    padding-left: 2px;
+    color: #F53838;
+}
+
+/* ========= Genie_Vietnam_part end ========== */
+
+.gallery_part {
+    background: url("../images/bg/gallry-bg.png") no-repeat center;
+    background-size: cover;
+    background-color: rgb(0, 0, 0);
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+.gallery_part h1 {
+    font-family: 'Style Script', cursive;
+    font-weight: 500;
+    font-size: 64px;
+    color: #ffffff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.gallery_part .gallery_img {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.gallery_part .gallery_index {
+    border-radius: 0px !important;
+}
+
+.gallery_part .gallery_img a img {
+    width: 100%;
+    height: 300px;
+}
+
+.gallery_part .gallery_img .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 40px 35px;
+    transform: scale(0);
+    transition: all linear 0.4s;
+}
+
+.gallery_part .gallery_img:hover .overlay {
+    transform: scale(1);
+}
+
+.gallery_part .gallery_img .overlay h3 {
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    font-weight: 800;
+    color: #ffffff;
+}
+
+/* ========= gallery_part end ========== */
+
+.footer-part {
+    background: #000000;
+    padding: 50px 0;
+}
+
+.footer-part .footer-img {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.footer-part .row {
+    padding: 30px 0;
+    border-bottom: 1px solid rgba(255, 215, 127, .4);
+
+}
+
+.footer-part .footer-text p {
+    float: left;
+    padding-top: 10px;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 14px;
+    color: #ffffff;
+}
+
+.footer-part .footer-text span {
+    float: left;
+    width: 40px;
+    height: 40px;
+    background: #E7DCCE;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.footer-part .footer-text span i {
+    color: #000000;
+    font-size: 22px;
+    padding-top: 9px;
+}
+
+.footer-part .copy_right {
+    text-align: center;
+}
+
+.footer-part .copy_right p {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #ffffff;
+    padding-top: 30px;
+}
+
+/* footer-part end */
+
+
+.topbutton {
+    color: white;
+    bottom: 50px;
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    position: fixed;
+    right: 20px;
+    text-align: center;
+    width: 50px;
+    border-radius: 0;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    z-index: 999;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: #E7DCCE;
+}
+
+.topbutton {
+    color: white;
+    line-height: 50px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.topbutton span {
+    color: #000000;
+}
+
+.topbutton.btn-show {
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+}
+
+.topbutton.btn-hide {
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    -webkit-transform: translateY(40px);
+    -ms-transform: translateY(40px);
+    transform: translateY(40px);
+}
+
+
+/* ===========================================
+===============================================
+                  index.html end
+=================================================
+================================================*/
+.rounded-10 {
+    border-radius: 10px;
+}
+
+
+/* ===========================================
+===============================================
+                  gallery.html end
+=================================================
+================================================*/
+
+
+.speisekarte_banner {
+    background: url("../images/Speisekarte/Speisekarte-banner.png") no-repeat center;
+    background-size: cover;
+    background-color: rgb(0, 0, 0);
+    padding-top: 300px;
+    padding-bottom: 200px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.speisekarte_banner::after {
+    content: '';
+    position: absolute;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.5984594521402311) 47%, rgba(0, 0, 0, 0.8981793400954132) 100%);
+    inset: 0;
+    z-index: -1;
+}
+
+.speisekarte_banner .speisekarte h1 {
+    font-family: 'Style Script', cursive;
+    font-weight: 500;
+    font-size: 64px;
+    color: #ffffff;
+}
+
+.speisekarte-header {
+    padding-bottom: 200px;
+}
+
+.speisekarte_banner .speisekarte p {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+/* ================== speisekarte_banner end ================== */
+.vorspeisen_part {
+    background: #000000;
+}
+
+.vorspeisen_part h1 {
+    font-family: 'Style Script', cursive;
+    font-weight: 500;
+    font-size: 64px;
+    color: #ffffff;
+}
+
+.vorspeisen_part .vorspeisen_img {
+    padding-bottom: 30px;
+}
+
+.vorspeisen_part .vorspeisen_img img {
+    width: 100%;
+}
+
+.vorspeisen_part .vorspeisen_text h4 {
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.vorspeisen_part .vorspeisen_text {
+    padding: 10px 0;
+    border-bottom: 1px solid #282828;
+}
+
+.vorspeisen_part .vorspeisen_text h4 span {
+    float: right;
+    color: #FFD77F;
+}
+
+.vorspeisen_part .vorspeisen_text p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: #6F6757;
+    font-size: 16px;
+    padding-top: 5px;
+    padding-right: 80px;
+}
+
+.vorspeisen_part p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 17px;
+    padding-top: 5px;
+}
+
+.vorspeisen_part h3 {
+    font-family: 'Lato', sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    color: #FFD77F;
+}
+
+.vorspeisen_part .topping-header {
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #ffffff;
+    position: relative;
+    padding: 30px 0;
+}
+
+.vorspeisen_part .topping-header::after {
+    content: "";
+    position: absolute;
+    width: 70%;
+    height: 1px;
+    top: 50%;
+    right: 0;
+    background: #282828;
+}
+
+.vorspeisen_part .topping_text p {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #E7DCCE;
+}
+
+
+/* ===========================================
+===============================================
+                  vietnamese.html end
+=================================================
+================================================*/
+
+.sushi_part_bg {
+    background: url("../images/sushi/sushi-bg.png") no-repeat center;
+    background-size: cover;
+    background-color: rgb(0, 0, 0);
+    padding-top: 300px;
+    padding-bottom: 200px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+
+/* ===========================================
+===============================================
+                  contact.html end
+=================================================
+================================================*/
+.gallery_part {
+    position: relative;
+    z-index: 1;
+}
+
+.gallery_part::after {
+    content: '';
+    position: absolute;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.5984594521402311) 0%, rgba(0, 0, 0, 0.8981793400954132) 100%);
+    inset: 0;
+    z-index: -1;
+}
+
+.contact_part .contact_from {
+    background: #000000;
+    float: right;
+}
+
+.contact_part .contact_info {
+    background: url("../images/bg/bg.png") no-repeat center;
+    background-size: cover;
+    background-color: #eed9bf;
+    position: relative;
+    z-index: 1;
+    float: left;
+}
+
+.contact_part h1 {
+    font-family: 'Style Script', cursive;
+    font-weight: 500;
+    font-size: 64px;
+    color: #ffffff;
+    padding-top: 100px;
+}
+
+.contact_part .contact_from_input {
+    width: 70%;
+    float: right;
+    margin-right: 50px;
+}
+
+.contact_part .contact_from_input .contact_input .input input {
+    width: 100%;
+    padding: 14px 15px;
+    margin-top: 20px;
+    background: #202020;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    font-weight: 300;
+}
+
+.contact_part .contact_from_input .contact_input .input textarea {
+    width: 100%;
+    padding: 12px 15px;
+    margin-top: 20px;
+    background: #202020;
+    border: none;
+    border-radius: 10px;
+    color: #ffffff;
+    height: 100px;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+::placeholder {
+    color: #ffffff;
+    opacity: 1;
+}
+
+.contact_part .contact_from_input a {
+    color: #000000;
+    background: #FFD77F;
+    padding: 14px 18px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    display: inherit;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+.contact_part .contact_info_text {
+    width: 70%;
+    float: left;
+    margin-left: 70px;
+}
+
+.contact_part .contact_info_text h1 {
+    font-family: 'Style Script', cursive;
+    font-weight: 500;
+    font-size: 64px;
+    color: #000000;
+    padding-top: 100px;
+}
+
+.contact_part .contact_info_text .contact-icon-text {
+    display: inline-flex;
+    width: 100%;
+}
+
+.contact_part .contact_info_text .contact-icon-text .contact-icon {
+    float: left;
+    width: 40px;
+    height: 40px;
+    background: #D0C3A7;
+    border-radius: 50%;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.contact_part .contact_info_text .contact-icon-text .contact-icon i {
+    color: #000000;
+    font-size: 22px;
+    padding-top: 9px;
+}
+
+.contact_part .contact_info_text .contact-icon-text p {
+    float: left;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 14px;
+    color: #000000;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.contact_part .contact_info_text .contact-icon-text p span {
+    font-size: 16px;
+}
+
+.contact_total_icon {
+    padding-top: 80px;
+}
+
+@media screen and (max-width: 767px) {
+    .gallery_part::after {
+        background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.5984594521402311) 47%, rgba(0, 0, 0, 0.8981793400954132) 100%);
+    }
+
+    .site-branding a img {
+        width: 130px;
+    }
+
+    .sushi_part .sushi_left .overlay h1 {
+        font-size: 42px;
+    }
+
+    .sushi_part_down .sushi_down .overlay h1 {
+        font-size: 42px;
+    }
+
+    .services_part .service-img .overlay h2 {
+        font-size: 16px;
+    }
+
+    .gallery_part .gallery_img a img {
+        height: 100px;
+    }
+
+    .gallery_part .gallery_img .overlay h3 {
+        font-size: 13px;
+        font-weight: 500;
+    }
+
+    .die_part .die_text h1 {
+        text-align: center;
+        font-size: 45px;
+    }
+
+    .die_part .die_footer {
+        font-size: 45px;
+    }
+
+    .banner_part .banner_text .banner-btn a {
+        padding: 9px 0;
+        margin-left: 5px;
+        width: 140px;
+    }
+
+    .inner-gallery {
+        padding: 250px 20px 20px;
+    }
+
+    .inner-gallery .gallery_img a img {
+        height: 155px;
+    }
+
+    .speisekarte_banner .speisekarte h1 {
+        font-size: 45px;
+    }
+}
