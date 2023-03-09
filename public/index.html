@@ -23,7 +23,10 @@
     <link rel="stylesheet" href="css/venobox.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/menu.css">
-
+    <script>
+        !function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+        posthog.init('phc_sUuUuKN5I26nDGxSMTqu9nPshWj1eykTZhPN8WqaWYv',{api_host:'https://app.posthog.com'})
+    </script>
 </head>
 
 <body data-spy="scroll" data-offset="170" data-target=".navigation-area">
@@ -76,7 +79,7 @@
                                 </nav>
                             </div>
                             <div class="lets-talk-area">
-                                <a class="menu_res_btn" style="" href="#">Reservieren</a>
+                                <a class="menu_res_btn" style="" href="Contact.html">Reservieren</a>
                                 <a class="menu_ber_btn" onclick="window.open('Contact.html', '_blank')">Abholen</a>
                             </div>
                         </div>
@@ -384,6 +387,8 @@
             </div>
             <div class="copy_right">
                 <p>©2022 Duy's Restaurant. All Rights Reserved.</p>
+                <a href="dsgvo.html">Datenschutz</a>
+                <a href="impressum.html">Impressum</a>
             </div>
         </footer>
 

@@ -19,6 +19,12 @@ ul {
     color: limegreen !important;
 }
 
+.flatpickr-day.selected {
+    color: #000 !important;
+    border-color: #FFD77F !important;
+    background-color: #FFD77F !important;
+}
+
 .review-banner {
     background: white;
     border: 2px solid #e6e6e6;
@@ -977,6 +983,30 @@ input[type=number] {
     margin-top: 20px;
     margin-bottom: 100px;
 }
+
+.hidden {
+    display: none !important;
+}
+
+.contact_part .contact_from_input .book {
+    color: #000000;
+    background: #FFD77F;
+    padding: 14px 18px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    display: inherit;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+.contact_part .contact_from_input .book:hover {
+    font-weight: 800;
+}
+
+
 
 .contact_part .contact_info_text {
     width: 70%;
