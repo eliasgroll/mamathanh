@@ -382,6 +382,7 @@
         const audio = new Audio('reservation.mp3');
         audio.play();
         t();
+        navigator.vibrate([100]);
         dispatchEvent(event);
     });
 
