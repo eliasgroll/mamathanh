@@ -186,19 +186,23 @@
                     </div>
                     <form class="contact_input">
                         <div class="input">
-                            <input required type="text" placeholder="Name">
+                            <input class="form-control" required type="text" name="name" id="name" placeholder="Name">
                         </div>
                         <div class="input">
-                            <input required type="number" placeholder="Telefonnummer">
+                            <input class="form-control" required type="number" name="number" id="number"
+                                   placeholder="Telefonnummer">
                         </div>
                         <div class="input">
-                            <input required type="email" placeholder="Email">
+                            <input class="form-control" required type="email" name="email" id="email"
+                                   placeholder="Email">
                         </div>
                         <div class="input">
-                            <input required class="datetime" type="text" placeholder="Datum & Uhrzeit">
+                            <input required class="datetime form-control" type="text" name="date" id="date"
+                                   placeholder="Datum & Uhrzeit">
                         </div>
                         <div class="input">
-                            <input required type="number" placeholder="Anzahl Personen">
+                            <input class="form-control" required type="number" name="numPeople" id="numPeople"
+                                   placeholder="Anzahl Personen">
                         </div>
                         <div class="input">
                             <textarea class="form-control" name="note" id="note"
@@ -353,42 +357,34 @@
         dateFormat: 'j. F Y H:i'
     });
 
-    const form = document.querySelector('.contact_input');
-    form.addEventListener('submit', function (event) {
-        event.preventDefault();
-
-        const formData = new FormData(event.target);
-        const formDataObject = Object.fromEntries(formData);
-
-        console.log(...formData);
-        console.log(formDataObject);
-
-        fetch('api/book', {
-            method: 'POST',
-            body: JSON.stringify(formDataObject),
-            headers: {'Content-Type': 'application/json'}
-        })
-            .then(response => response.json())
-            .then(data => {
-                console.log('Success:', data);
-            })
-            .catch(error => {
-                console.error('Error:', error);
-            });
-
-        form.remove();
+    const showResFeedback = () => {
         document.querySelector('.success-book').innerHTML = 'Ihre Reservierung wurde Empfangen!<br><br> Wir melden uns bald per Email.<br>'
-        document.querySelector('.hidden').classList.remove('hidden');
-        const audio = new Audio('reservation.mp3');
-        audio.play();
-        t();
+        document.querySelector('.die_img').classList.remove('hidden');
+        (new Audio('reservation.mp3')).play();
         navigator.vibrate([100]);
-        dispatchEvent(event);
-    });
+    }
+
+    document.querySelector('form.contact_input')
+        .addEventListener('submit', function (e) {
+            e.preventDefault();
+
+            fetch('api/book', {
+                method: 'POST',
+                body: new FormData(e.target),
+            })
+                .then(response => response.json())
+                .then(data => {
+                    console.log('Success:', data);
+                })
+                .catch(error => {
+                    alert('Leider ist ein unerwarteter Fehler aufgetreten. Bitte reservieren Sie telefonisch (0723 2317398).')
+                    console.error('Error:', error);
+                });
+            t();
+            showResFeedback();
+        });
 
 </script>
 <script src="js/main.js"></script>
-
 </body>
-
 </html>

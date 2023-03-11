@@ -988,6 +988,21 @@ input[type=number] {
     display: none !important;
 }
 
+.loader {
+    border: 8px solid #FFD77F; /* Light grey */
+    border-top: 8px solid #000000; /* Blue */
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin: auto auto;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
 .contact_part .contact_from_input .book {
     color: #000000;
     background: #FFD77F;
