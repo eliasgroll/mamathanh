@@ -354,12 +354,17 @@
         time_24h: true,
         enableTime: true,
         locale: 'de',
-        dateFormat: 'j. F Y H:i'
+        dateFormat: 'j. F Y H:i',
+        minDate: new Date(),
+        disable: [
+            (date) => (date.getDay() === 2)
+        ],
     });
 
     const showResFeedback = () => {
         document.querySelector('.success-book').innerHTML = 'Ihre Reservierung wurde Empfangen!<br><br> Wir melden uns bald per Email.<br>'
         document.querySelector('.die_img').classList.remove('hidden');
+        document.querySelector('.contact_input').classList.add('hidden');
         (new Audio('reservation.mp3')).play();
         navigator.vibrate([100]);
     }
@@ -372,10 +377,6 @@
                 method: 'POST',
                 body: new FormData(e.target),
             })
-                .then(response => response.json())
-                .then(data => {
-                    console.log('Success:', data);
-                })
                 .catch(error => {
                     alert('Leider ist ein unerwarteter Fehler aufgetreten. Bitte reservieren Sie telefonisch (0723 2317398).')
                     console.error('Error:', error);
