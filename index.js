@@ -8,7 +8,7 @@ const THIRTY_MINUTES = 60 * 1000 * 30;
 const PORT = 3000;
 const CONFIRM_KEY = '98mzwqerfc9m8cwef';
 const MAIL_PARAMS = ['email', 'name', 'numPeople', 'date'];
-const HOST = 'http://localhost:3000';
+const HOST = 'https://duy-restaurant.de';
 
 const app = express();
 app.use(express.static('public'));
