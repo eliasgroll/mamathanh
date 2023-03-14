@@ -1,12 +1,13 @@
 <!doctype html>
 <html lang="en">
 <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <meta name="description" content="Duy's Restaurant">
+    <meta name="description" content="Mamathanh">
     <meta name="keywords" content="HTML5, Template, Design, portfolio, Personal Portfolio, Single portfolio"/>
     <meta name="author" content="creative-wp">
 
@@ -23,10 +24,85 @@
     <link rel="stylesheet" href="css/venobox.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flatpickr/4.6.13/flatpickr.min.css"
+          integrity="sha512-MQXduO8IQnJVq1qmySpN87QQkiR1bZHtorbJBD0tzy7/0U9+YIC93QWHeGTEoojMVHWWNkoCp8V6OzVSYrX0oQ=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.8.9/dist/cookieconsent.css"
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <!-- Facebook Pixel Code -->
     <script>
-        !function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
-        posthog.init('phc_sUuUuKN5I26nDGxSMTqu9nPshWj1eykTZhPN8WqaWYv',{api_host:'https://app.posthog.com'})
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return;
+            n = f.fbq = function () {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = '2.0';
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '{your-pixel-id-goes-here}');
+        fbq('track', 'PageView');
     </script>
+    <noscript>
+        <img height="1" width="1" style="display:none"
+             src="https://www.facebook.com/tr?id={your-pixel-id-goes-here}&ev=PageView&noscript=1"/>
+    </noscript>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-99371311-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'UA-99371311-1');
+    </script>
+    <script>
+        !function (t, e) {
+            var o, n, p, r;
+            e.__SV || (window.posthog = e, e._i = [], e.init = function (i, s, a) {
+                function g(t, e) {
+                    var o = e.split(".");
+                    2 == o.length && (t = t[o[0]], e = o[1]), t[e] = function () {
+                        t.push([e].concat(Array.prototype.slice.call(arguments, 0)))
+                    }
+                }
+
+                (p = t.createElement("script")).type = "text/javascript", p.async = !0, p.src = s.api_host + "/static/array.js", (r = t.getElementsByTagName("script")[0]).parentNode.insertBefore(p, r);
+                var u = e;
+                for (void 0 !== a ? u = e[a] = [] : a = "posthog", u.people = u.people || [], u.toString = function (t) {
+                    var e = "posthog";
+                    return "posthog" !== a && (e += "." + a), t || (e += " (stub)"), e
+                }, u.people.toString = function () {
+                    return u.toString(1) + ".people (stub)"
+                }, o = "capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags".split(" "), n = 0; n < o.length; n++) g(u, o[n]);
+                e._i.push([i, s, a])
+            }, e.__SV = 1)
+        }(document, window.posthog || []);
+        posthog.init('phc_sUuUuKN5I26nDGxSMTqu9nPshWj1eykTZhPN8WqaWYv', {api_host: 'https://app.posthog.com'})
+        posthog.register({'tag': 'main'});
+    </script>
+    <script>
+        const t = () => {
+            fbq('track', 'Purchase', {currency: 'USD', value: 40.00});
+            posthog.capture('Purchase');
+            gtag('event', 'Purchase')
+        }
+    </script>
+    <!-- End Facebook Pixel Code -->
+
 </head>
 
 <body data-spy="scroll" data-offset="170" data-target=".navigation-area">
