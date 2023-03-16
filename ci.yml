@@ -1,0 +1,10 @@
+prepare:
+  steps:
+    - name: Install
+      command: npm ci
+test:
+  steps: []
+run:
+  steps:
+    - name: Run
+      command: sudo -u admin n 16.18 && node index.js
