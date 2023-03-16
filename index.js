@@ -2,6 +2,7 @@ const fetch = require('cross-fetch');
 const express = require('express');
 const mail = require('@sendgrid/mail');
 const bodyParser = require('body-parser');
+const compression = require('compression');
 const multer = require('multer');
 
 const THIRTY_MINUTES = 60 * 1000 * 30;
@@ -11,6 +12,7 @@ const MAIL_PARAMS = ['email', 'name', 'numPeople', 'date'];
 const HOST = 'https://duy-restaurant.de';
 
 const app = express();
+app.use(compression());
 app.use(express.static('public'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}));
