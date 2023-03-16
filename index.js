@@ -9,7 +9,7 @@ const THIRTY_MINUTES = 60 * 1000 * 30;
 const PORT = 3000;
 const CONFIRM_KEY = '98mzwqerfc9m8cwef';
 const MAIL_PARAMS = ['email', 'name', 'numPeople', 'date'];
-const HOST = 'https://restaurant-duy.de';
+const HOST = 'https://mamathanh.de';
 
 const app = express();
 app.use(compression());
@@ -21,7 +21,7 @@ app.use(express.static('public'));
 const upload = multer({dest: 'uploads/'});
 
 const SENDGRID_API_KEY = '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';
-const RESTAURANT_EMAIL = 'team@duy-restaurant.de'
+const RESTAURANT_EMAIL = 'mama@mamathanh.de'
 const SENDGRID_RESERVATION = 'd-4d99aca202ef403bb71d6ca6c155890b';
 const SENDGRID_CONFIRMATION = 'd-720d108a9b0248a28438b524656f98ba';
 mail.setApiKey(SENDGRID_API_KEY);
@@ -29,7 +29,7 @@ const contacts = require('@sendgrid/client');
 const {raw} = require("body-parser");
 contacts.setApiKey(SENDGRID_API_KEY);
 
-const GPLACE_ID = 'ChIJszx8xfQMl0cRT2u02_0_K94';
+const GPLACE_ID = 'ChIJw9Ivr2IHl0cRFHsg_SNRIW8';
 const GPLACES_KEY = 'AIzaSyCRPFAqXzH1w4oYxkN73urCJKgNWikOQ9c';
 const getGooglePlaceData = async () => {
     const url = new URL('https://maps.googleapis.com/maps/api/place/details/json');
